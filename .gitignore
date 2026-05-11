@@ -1,0 +1,35 @@
+node_modules
+dist
+.DS_Store
+.env
+
+# 렌더링 결과물
+out
+build/
+
+# 음성 파일 (pnpm sync로 재생성)
+public/**/*.mp3
+
+# 테스트 결과물
+test-results/
+
+# IDE 설정
+.idea/
+
+# npm lock (pnpm 프로젝트)
+package-lock.json
+
+# sync 스크립트 해시 캐시 (자동 생성)
+.cache/
+
+# 툴 내부 디렉토리
+.claude/
+.superpowers/
+docs/superpowers/
+
+# 임시 파일
+thumbnail-preview.html
+
+# YouTube OAuth 인증
+client.json
+token.json

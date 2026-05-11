@@ -1,0 +1,17 @@
+# 빌드 / 렌더 결과물
+out
+build
+.remotion
+
+# 자동 생성 파일 (pnpm sync 결과)
+src/compositions/**/*-audio.ts
+src/compositions/**/*-srt.ts
+
+# 의존성
+node_modules
+.venv
+
+# 기타
+*.log
+.env.*
+pnpm-lock.yaml
